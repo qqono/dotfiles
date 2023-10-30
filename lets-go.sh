@@ -16,7 +16,7 @@
 
 # If not already set, specify dotfiles destination directory and source repo
 DOTFILES_DIR="${DOTFILES_DIR:-$HOME/Documents/config/dotfiles}"
-DOTFILES_REPO="${DOTFILES_REPO:-https://github.com/qqono/buttfiles.git}"
+DOTFILES_REPO="${DOTFILES_REPO:-https://github.com/qqono/dotfiles.git}"
 
 # Print starting message
 echo -e "\033[1;35m""Lissy93/Dotfiles Installation Script 🧰
