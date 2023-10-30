@@ -242,7 +242,7 @@ Once the repo is cloned, you can modify whatever files you like before running t
 
 ### Install Script
 
-The setup script ([`install.sh`](https://github.com/Lissy93/dotfiles/blob/master/install.sh)) will do the following:
+The setup script ([`install.sh`](https://github.com/qqono/buttfiles/blob/master/install.sh)) will do the following:
 
 - **Setup**
   - Print welcome message, and a summary of proposed changes, and prompt user to continue
