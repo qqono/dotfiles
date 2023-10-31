@@ -251,4 +251,11 @@ cask 'coteditor'      # Just a simple plain-text editor
 cask 'little-snitch'  # Firewall app viewing / blocking traffic
 cask 'keka'           # File archiver and extractor
 
+# Extras
+
+brew 'discord'
+brew 'floorp'
+brew 'nordvpn'
+
+
 # EOF
