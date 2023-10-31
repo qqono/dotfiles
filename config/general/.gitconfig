@@ -60,7 +60,7 @@
 	plus-empty-line-marker-style = normal normal
 	line-numbers-right-format = "{np:^4}│ "
 # [github]
-	# user = lissy93
+	# user = qqono
 	# token = token
 [gitflow "prefix"]
 	versiontag = v
@@ -274,7 +274,7 @@
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Users/alicia/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Users/bb/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [remote "origin"]
 	url = https://github.com/Homebrew/brew
