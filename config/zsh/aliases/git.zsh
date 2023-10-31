@@ -94,7 +94,7 @@ alias gj='jump-to-git-root'
 # Shorthand clone (e.g. $ clone lissy93/dotfiles)
 function clone {
   default_service='github.com' # Used if full URL isn't specified
-  default_username='lissy93' # Used if repo org / username isn't specified
+  default_username='qqono' # Used if repo org / username isn't specified
   use_ssh=true # Use SSH instead of HTTPS
   user_input=$1
   target=${2:-''}
@@ -103,7 +103,7 @@ function clone {
     echo -e 'This will clone a git repo, and cd into it.';
     echo -e 'Either specify repo name, oe user/repo, or a full URL.'
     echo -e 'If no target directory is specified, the repo name will be used.'
-    echo -e 'E.g. `$ clone lissy93/dotfiles`'
+    echo -e 'E.g. `$ clone qqono/dotfiles`'
     return;
   # No input specified, prompt user
   elif [ $# -eq 0 ]; then
